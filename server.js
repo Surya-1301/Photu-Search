@@ -16,9 +16,9 @@ app.use((req, res, next) => {
 // Serve static files
 app.use(express.static(path.join(__dirname)));
 
-// Pixabay API configuration
-const PIXABAY_API_KEY = '29904377-5d788804b733434f876aed7ea';
-const PIXABAY_API_URL = 'https://pixabay.com/api/';
+// Pixabay API configuration (read from environment)
+const PIXABAY_API_KEY = process.env.PIXABAY_API_KEY || 'your_pixabay_api_key_here';
+const PIXABAY_API_URL = process.env.PIXABAY_API_URL || 'https://pixabay.com/api/';
 
 // Route to handle image search
 app.get('/api/images', async (req, res) => {

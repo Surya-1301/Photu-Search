@@ -40,11 +40,14 @@ Top-level layout:
 npm install
 ```
 
-2. Backend env: copy example and adjust keys
+2. Backend env: create a local `.env` (do NOT commit secrets)
 
 ```bash
+# Create a local backend env from the example and fill values.
 cp backend/env/.env.example backend/.env
-# Edit backend/.env and add your API keys (see env section below)
+# IMPORTANT: never commit `backend/.env`. Add `backend/.env` to .gitignore
+# For production (Netlify) set `PEXELS_API_KEY`, `PIXABAY_API_KEY`, and
+# `UNSPLASH_ACCESS_KEY` in the site UI or CI environment instead of committing.
 ```
 
 3. Start backend (port 10000 by default)
