@@ -1,0 +1,35 @@
+{
+  "vmazedaar@gmail.com": {
+    "salt": "24a38e761db0e9b10024f7ea61001ee5",
+    "hash": "40b1fbe84adeeb6b8cf246fb4291b4c2beb8d6a357508320ebd6b7f8a317a3867b8befc6e9834e2bee81039ef3e65441b04e70802d44e88dcc43ecf51d1f97f5",
+    "createdAt": "2025-08-25T16:35:36.891Z",
+    "token": "aae80842bb605d0073c711d316f726019d0ac8585ef201d8"
+  },
+  "ss058012@gmail.com": {
+    "username": "Sнυвнαм Sɪɴɢʜ",
+    "email": "ss058012@gmail.com",
+    "googleId": "103310035674622201191",
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocJekIHsNxcbv2ZLoplUsjenOPRwOzJ8jrRt8CJiUoxv_QqemsRb=s96-c",
+    "provider": "google",
+    "createdAt": "2025-08-25T17:17:11.529Z",
+    "token": "e03c5f4c6d4362f4d2d224206ee7e782113a9dca73702e4f"
+  },
+  "testuser": {
+    "salt": "9cc5c49b745242774b5111019904afdb",
+    "hash": "58f77a3b3242a2874dfe2456571298dfcf3d82f6fd4c718d13f742fb45065ce805a84db2c73ca28de57f8e542d1fd430381f4997a25af3024426a655a03b38b1",
+    "createdAt": "2025-09-12T17:26:13.917Z",
+    "token": "1dd76c727a8cd894dbd9730847c2b75b844da87f277f83e2"
+  },
+  "jwtuser": {
+    "salt": "f6ef2fd325a31726ad8fdd1a827da0ad",
+    "hash": "258dbbfb60879b927573986a630e03bca1c741ecf44bde0f5a4f105742a802fda83c443c9ae867b89244260c4aad6c5f05eae2179874bcd4063c71b750857591",
+    "createdAt": "2025-09-12T17:33:33.596Z",
+    "token": "d740bdc65a7518b9dfc12dc3f41be946f6ef1c9fbca8b080"
+  },
+  "jwtcheck": {
+    "salt": "c4132a6c2f7a790182f37c803c085ac3",
+    "hash": "0f6fcf15dd03e95b0931ebdb74685435d62cb66323777022979e0df8356ae4461d1a2441b1fd151fb13f09e60b792675bd05cf0ddaa8666f1853403e77f671d2",
+    "createdAt": "2025-09-12T17:39:13.778Z",
+    "provider": "local"
+  }
+}

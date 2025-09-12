@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: image-search-app-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.1
+      - key: PORT
+        value: 10000
+      - key: CORS_ORIGIN
+        value: https://voluble-melomakarona-866e9c.netlify.app
+      - key: UNSPLASH_ACCESS_KEY
+        sync: false 

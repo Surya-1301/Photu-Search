@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- subtle diagonal line pattern for header, low-opacity white -->
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" preserveAspectRatio="none">
+  <g fill="none" stroke="#ffffff" stroke-width="1" opacity="0.06">
+    <path d="M-10 20 L20 -10" />
+    <path d="M10 90 L90 10" />
+    <path d="M-10 60 L60 -10" />
+  </g>
+</svg>

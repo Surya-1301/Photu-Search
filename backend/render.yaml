@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: image-search-app-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20.11.1
+      - key: PORT
+        value: 10000 
