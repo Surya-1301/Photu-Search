@@ -4,6 +4,12 @@ Photu Search is a small image search web app that aggregates results from multip
 
 This README explains how to run the project locally, configure provider API keys, and the main developer points for customization.
 
+<p align="center">
+  <a href="https://photu-search.netlify.app/">
+    <img src="https://img.shields.io/badge/View Demo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+
 ## Features
 - Search images across multiple providers (Unsplash, Pixabay, Pexels)
 - JWT-based signup/login (local users stored in `backend/users.json` for demo)
